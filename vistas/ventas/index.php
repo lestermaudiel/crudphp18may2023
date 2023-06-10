@@ -22,7 +22,7 @@ require_once '../../modelos/Producto.php';
             <form action="/crudphp18may2023/controladores/ventas/guardar.php" method="POST" class="col-lg-8 border bg-light p-3">
                 <div class="row mb-3">
                     <div class="col">
-                        <label for="venta_cliente">Cliente</label>
+                        <label for="venta_cliente">Cclieiente</label>
                         <select name="venta_cliente" id="venta_cliente" class="form-control">
                             <option value="">SELECCIONE...</option>
                             <?php foreach ($clientes as $key => $cliente) : ?>
